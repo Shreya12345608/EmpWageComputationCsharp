@@ -13,7 +13,7 @@ namespace EmpWageProblems
 
             Console.WriteLine("Welcome to Employee Wage Program"); //main
             EmployeWageProblem EmployeeWage = new EmployeWageProblem();
-            EmployeeWage.Attendance();
+            EmployeeWage.Attendence();
             Console.ReadKey();
         }
 
