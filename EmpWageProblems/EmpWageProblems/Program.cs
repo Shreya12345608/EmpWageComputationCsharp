@@ -11,8 +11,10 @@ namespace EmpWageProblems
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Welcome to Employee Wage Program");
-            Console.ReadLine();
+            Console.WriteLine("Welcome to Employee Wage Program"); //main
+            EmployeWageProblem EmployeeWage = new EmployeWageProblem();
+            EmployeeWage.Attendance();
+            Console.ReadKey();
         }
 
     }
